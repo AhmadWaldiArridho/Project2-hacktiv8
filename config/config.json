@@ -14,10 +14,11 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "username": "postgres",
+    "port": 6051,
+    "password": "BgHrokhfascPyCSck6CR",
+    "database": "railway",
+    "host": "containers-us-west-45.railway.app",
+    "dialect": "postgres"
   }
 }
