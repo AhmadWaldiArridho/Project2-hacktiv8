@@ -1,6 +1,6 @@
 {
   "development": {
-    "username": "ahmad", 
+    "username": "ahmad",
     "password": "password",
     "database": "db_MyGram",
     "host": "127.0.0.1",
@@ -14,12 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "postgres",
-    "port": 6051,
-    "password": "BgHrokhfascPyCSck6CR",
-    "database": "railway",
-    "host": "containers-us-west-45.railway.app",
-    "DB_URI": "postgresql://postgres:BgHrokhfascPyCSck6CR@containers-us-west-45.railway.app:6051/railway",
-    "dialect": "postgres"
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
   }
 }
