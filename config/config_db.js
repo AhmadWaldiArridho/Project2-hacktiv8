@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 
-module.exports= {
+module.exports = {
     "development": {
       "username": "ahmad",
       "password": "password",
@@ -21,6 +21,7 @@ module.exports= {
       "password": process.env.PGPASSWORD,
       "database": process.env.PGDATABASE,
       "host": process.env.PGHOST,
+      "port": process.env.PGPORT,
       "dialect": "postgres"
     }
 }
